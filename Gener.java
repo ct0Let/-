@@ -1,7 +1,7 @@
 public class Gener {
     SystemInfo si = new SystemInfo();
     int a = 1;  //минимальное число
-    int b = 10; //максимальное число
+    int b = 100; //максимальное число
     int count = 0; // счетчик итераций
     int gener = generatNumber(); // переменная для генерации случайного числа
 
