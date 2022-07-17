@@ -18,6 +18,7 @@ public class RollThedIce  {
                 one.count++;
                 System.out.println(input);
                 System.out.println("Угадал, Попытка №:" + one.count);
+                System.exit(0);
             }
         }
     }
