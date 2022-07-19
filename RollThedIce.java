@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class RollThedIce  {
-    public static void main(String[] args)  {
+public class RollThedIce {
+    public static void main(String[] args) {
         Scanner src = new Scanner(System.in);
         Gener one = new Gener();
         while (true) {
@@ -18,7 +18,7 @@ public class RollThedIce  {
                 one.count++;
                 System.out.println(input);
                 System.out.println("Угадал, Попытка №:" + one.count);
-                System.exit(0) ;
+                System.exit(0);
             }
         }
     }
